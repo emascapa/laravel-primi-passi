@@ -30,3 +30,39 @@ Route::get('/', function () {
         compact('nav_links')
     );
 });
+
+Route::get('/about', function () {
+
+    //parametri da passare
+    $nav_links = [
+        'Hello' => '#',
+        'My' => '#',
+        'Name' => '#',
+        'Is' => '#',
+        'Jack' => '#',
+        'Sparrow' => '#'
+    ];
+
+    return view(
+        'about',
+        compact('nav_links')
+    );
+});
+
+Route::get('/contacts', function () {
+
+    //parametri da passare
+    $nav_links = [
+        'You' => '#',
+        'Can' => '#',
+        'Find' => '#',
+        'Me' => '#',
+        'In' => '#',
+        'Lisboa' => '#'
+    ];
+
+    return view(
+        'contacts',
+        compact('nav_links')
+    );
+});

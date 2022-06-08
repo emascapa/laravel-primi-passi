@@ -97,7 +97,7 @@
 
         <div class="content">
             <div class="title m-b-md">
-                CIAO CARI
+                About me
             </div>
 
             <div class="links">
